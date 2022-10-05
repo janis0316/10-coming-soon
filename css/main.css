@@ -1,0 +1,38 @@
+.body {
+
+}
+.header {
+    text-align: center;
+    width: 100%;
+}
+.logo-first {
+
+}
+.main-title {
+    text-transform: uppercase;
+}
+.description {
+
+}
+.time {
+    color: white;
+}
+.time-info {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+.email {
+    color: white;
+}
+.btn {
+    text-transform: capitalize;
+    color: white;
+    background-color: red;
+    height: 2em;
+    width: 10em;
+    text-align: center;
+}
+.animation {
+
+}
