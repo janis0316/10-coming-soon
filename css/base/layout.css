@@ -29,11 +29,14 @@ main {
     background-color: pink;
 }
 
+.main-content {
+    display: flex;
+    justify-content: space-between;
+}
+
 .left-column {
-    float: left;
     width: 50%;
 }
 .right-column {
-    float: left;
-    width: 50%;
+    width: 40%;
 }
