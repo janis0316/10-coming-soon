@@ -20,13 +20,11 @@ main {
     float: left;
     width: 1000px;
     margin-left: calc(50% - 500px);
-    background-color: yellow;
 }
 .row-short {
     float: left;
     width: 600px;
     margin-left: calc(50% - 300px);
-    background-color: pink;
 }
 
 .main-content {

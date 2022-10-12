@@ -22,7 +22,7 @@
 
 .main-description {
     font-size: 20px;
-    color: #afb9c3;
+    color: #fffb;
 }
 
 .clock {
@@ -49,7 +49,7 @@
 
 .section-description {
     font-size: 18px;
-    color: #afb9c3;
+    color: grey;
 }
 
 .section-description > a {
@@ -63,4 +63,15 @@
 
 footer.container {
     padding-top: 0;
+    text-align: center;
+    color: #fffb;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
