@@ -1,0 +1,27 @@
+.socials {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    gap: 20px;
+    border-bottom: 2px solid white;
+}
+
+.socials > .icon {
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    line-height: 60px;
+    transition: all 0.5s;
+}
+
+.socials > .icon:hover {
+    background-color: white;
+    color: var(--primary-color);
+
+}
