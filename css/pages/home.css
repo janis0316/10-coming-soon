@@ -1,6 +1,10 @@
 .hero {
     min-height: 100vh;
     text-align: center;
+    background-image: url(../../images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .hero > .row-short {
@@ -16,17 +20,18 @@
 }
 
 .main-title {
-    font-size: 80px;
+    font-size: 75px;
     text-transform: uppercase;
 }
 
 .main-description {
     font-size: 20px;
-    color: #fffb;
+    color: #afb9c3;
 }
 
 .clock {
-    margin: 30px 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .left-column {
@@ -48,7 +53,7 @@
 
 .section-description {
     font-size: 18px;
-    color: grey;
+    color: #afb9c3;
 }
 
 .section-description > a {
@@ -67,8 +72,8 @@ footer.container {
 }
 
 footer a {
-    color: white;
     text-decoration: none;
+    color: white;
 }
 
 footer a:hover {
@@ -77,8 +82,8 @@ footer a:hover {
 
 .bottom-trio {
     display: flex;
-    gap: 0 30px;
     justify-content: center;
+    gap: 0 30px;
 }
 
 .bottom-trio > span {
@@ -88,24 +93,27 @@ footer a:hover {
 .bottom-trio > span::after {
     content: '';
     display: inline-block;
-    width: 2px;
-    height: 16px;
     background-color: #fffb;
     position: absolute;
+    width: 2px;
+    height: 16px;
     top: 50%;
     right: -15px;
     transform: translate(50%, -50%);
 }
 
-.bottom-trio > span:last-child:after {
+.bottom-trio > span:last-child::after {
     display: none;
 }
 
 @media (max-width: 700px) {
+    .main-title {
+        font-size: 60px;
+    }
     .bottom-trio {
         flex-direction: column;
     }
     .bottom-trio > span::after {
         display: none;
-}
+    }
 }
