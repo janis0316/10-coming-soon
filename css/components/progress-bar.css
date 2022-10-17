@@ -1,0 +1,28 @@
+.progress-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.progress-bar > .top {
+    display: flex;
+    justify-content: space-between;
+    color: darkgrey;
+    font-size: 18px;
+}
+
+.progress-bar > .bottom {
+    height: 6px;
+    background-color: grey;
+    border-radius: 3px;
+
+}
+
+.progress-bar > .bottom > .progress {
+    height: 100%;
+    width: 90%;
+    background-color: var(--primary-color);
+    border-radius: 3px 0 0 30px; 
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
