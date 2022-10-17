@@ -26,3 +26,23 @@
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
 }
+
+.progress-bar > .bottom > .progress > .bar {
+    height: 100%;
+    width: 90%;
+    background-color: var(--primary-color);
+    border-radius: 3px 0 0 30px; 
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    animation: loading 1s forwards;
+}
+
+@keyframes loading {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+    
+}
