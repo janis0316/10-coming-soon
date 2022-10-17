@@ -20,7 +20,7 @@
 }
 
 .main-title {
-    font-size: 75px;
+    font-size: 70px;
     text-transform: uppercase;
 }
 
@@ -32,6 +32,7 @@
 .clock {
     margin-top: 30px;
     margin-bottom: 30px;
+    width: 100%;
 }
 
 .left-column {
