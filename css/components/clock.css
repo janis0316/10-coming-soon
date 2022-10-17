@@ -14,11 +14,11 @@
     
 }
 
-.value {
+.time > .value {
     font-size: 70px;    
 }
 
-.label {
+.time > .label {
     font-size: 20px;
     text-transform: uppercase;
 }
